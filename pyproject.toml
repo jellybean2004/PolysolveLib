@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "polysolve"
-authors = [{name = "", email = ""}]
+authors = [{name = "sujaya", email = "sujaya@me.com"}]
 requires-python = ">= 3.8"
 readme = "README.md"
 description = ""
 license = {text = "BSD-3-Clause"}
 
 keywords = []
-dependencies = []
+dependencies = ["cowsay"]
 classifiers = []
 dynamic = ["version"]
 
